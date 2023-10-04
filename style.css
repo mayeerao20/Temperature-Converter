@@ -1,0 +1,78 @@
+header {
+    background-color: rgb(231, 200, 133); /* Background color for the header */
+    color: black; /* Text color for the header */
+    padding: 10px; /* Adjust padding to your preference */
+    text-align: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex
+{
+    background-color: black;
+}
+
+.container
+{
+    /* display: flex;
+    justify-content:  space-around; */
+    background-color: black;
+}
+.card-body
+{
+    background-color: rgb(72, 72, 72);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    color: honeydew;
+    overflow-wrap: break-word;
+    background-color: rgb(0 0 0);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body
+{
+    display: flex;
+    justify-content: center;
+}
+.resultValueSection
+{
+    display: flex;
+}
+
+/* Adding style for footer */
+
+footer {
+    text-align: center;
+    background-color: rgb(231, 200, 133); /* Background color for the footer */
+    color: black; /* Text color for the footer */
+    padding: 10px; /* Adjust padding to your preference */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ftr{
+    opacity: 2.5;
+    font-family: cursive;
+    font-size: 22.5px;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+    opacity: 1;
+    
+ }
